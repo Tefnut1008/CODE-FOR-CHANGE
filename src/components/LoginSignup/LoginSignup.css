@@ -9,9 +9,11 @@
     padding: 30px 40px;
 }
 
-.wrapper h1{
+.wrapper .window{
     font-size: 36px;
     text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
 }
 
 .wrapper .input-box{
@@ -79,19 +81,56 @@
     font-weight: 700;
 }
 
-.wrapper .register-link{
+.wrapper .filled{
+    width: 40%;
+    height: 50px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 18px;
+    color:#333;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.wrapper .empty{
+    width: 40%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    cursor: pointer;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.wrapper #doctor{
+    width: 34%;
+    position: absolute;
+    right: 43px;
+}
+
+
+.wrapper .signup,.wrapper .login{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
 }
 
-.register-link p a{
+.signup p a,.login p a{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
     padding-left: 5px;
 }
 
-.register-link p a:hover{
+.signup p a:hover,.login p a:hover{
     text-decoration: underline;
 }
