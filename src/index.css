@@ -14,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('./components/assets/LoginSignup.png') no-repeat;
   background-size: cover;
   background-position: center;
 }

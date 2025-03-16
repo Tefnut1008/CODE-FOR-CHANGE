@@ -4,15 +4,16 @@ import { FaUser, FaLock } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const LoginSignup = () => {
-  
+
   const [choice, setChoice] = useState("Patient")
   const [action, setAction] = useState("Sign Up");
 
   return (
+    <div className='body'>
     <div className='wrapper'>
       <form action="">
-      <button id='patient' className={choice=='Patient'?"filled":"empty"} type='button' onClick={()=>{setChoice('Patient')}}>Patient</button>
-      <button id='doctor' className={choice=='Patient'?"empty":"filled"} type='button' onClick={()=>{setChoice('Doctor')}}>Doctor</button>
+        <button id='patient' className={choice == 'Patient' ? "filled" : "empty"} type='button' onClick={() => { setChoice('Patient') }}>Patient</button>
+        <button id='doctor' className={choice == 'Patient' ? "empty" : "filled"} type='button' onClick={() => { setChoice('Doctor') }}>Doctor</button>
         <div className='window'>{action === 'Sign Up' ? "Log in" : "Sign Up"}</div>
         {action === 'Sign Up' ? <div></div> : <div className='input-box'>
           <input type='email' placeholder='Gmail' required />
@@ -38,6 +39,7 @@ const LoginSignup = () => {
           </p>
         </div>
       </form>
+    </div>
     </div>
   )
 }

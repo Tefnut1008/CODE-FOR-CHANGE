@@ -1,0 +1,78 @@
+.body {
+    background: url('/src/components/assets/Landing.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    background-color: #071d4a;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 3px 20px;
+}
+
+.navbar button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50px;
+    position: absolute;
+    right: 30px;
+}
+
+.navbar button:hover {
+    background-color: #e68900;
+}
+
+.back
+{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    bottom: 10px;
+    left: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.tagline{
+    position: absolute;
+    right: 190px;
+    top: 100px;
+    color: #0077b6;
+    font-size: 60px;
+}
+
+.info{
+    height: 70px;
+    width: 800px;
+    position: absolute;
+    right: 30px;
+    top: 380px;
+    color: #b1b8ff;
+    font-size: 25px;
+}
+
+.heart{
+    border-radius: 140px;
+    position: absolute;
+    top: 130px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
