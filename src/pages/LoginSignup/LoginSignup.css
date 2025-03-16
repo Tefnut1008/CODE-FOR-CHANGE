@@ -1,5 +1,5 @@
 .body{
-    background: url('/src/components/assets/LoginSignup.png') no-repeat;
+    background: url('/src/assets/LoginSignup.png') no-repeat;
     height: 100vh;
     width: 100vw;
     display: flex;

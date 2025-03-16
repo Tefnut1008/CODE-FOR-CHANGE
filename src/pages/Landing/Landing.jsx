@@ -1,6 +1,6 @@
 import React from 'react'
 import './Landing.css'
-import heart from '/Users/User/healthcare-medico/src/components/assets/heart.png'
+import heart from '/Users/User/healthcare-medico/src/assets/heart.png'
 
 const Landing = () => {
   return (
